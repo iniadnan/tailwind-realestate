@@ -1,0 +1,125 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    width: 100%;
+    background-color: #fff;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+#header {
+    height: 792px;
+    width: 100%;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+#header .header-cover {
+    height: 792px;
+    width: 50vw;
+    position: absolute;
+    right: -215px;
+    background-color: #F0F3FF;
+    opacity: 0.5;
+    transform: skewX(20deg);
+}
+
+#nav {
+    padding: 32px 72px;
+}
+#nav h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0.08em;
+}
+#nav .nav-link a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #52575C;
+    letter-spacing: 0.085em;
+    z-index: 10;
+}
+#nav .nav-link a.active {
+    position: relative;
+    font-weight: 600;
+    color: #25282B;
+    overflow-x: hidden;
+}
+#nav .nav-link a.active .active-line {
+    height: 1px;
+    width: 40px;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, -50%);
+    background-color: #FF5B22;
+}
+#nav .nav-link a.button {
+    background-color: #FF5B22;
+    padding: 8px 32px;
+    border-radius: 2px;
+    letter-spacing: 0.002em;
+    color: #fff;
+}
+
+#welcome {
+    padding-left: 72px;
+    padding-right: 32px;
+}
+#welcome .welcome-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 52px;
+    color: #25282B;
+    letter-spacing: 0.005em;
+}
+#welcome .welcome-text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #52575C;
+}
+#welcome .welcome-image img {
+    width: 100%;
+    z-index: 10;
+}
+#welcome .welcome-search {
+    width: 790px;
+    background-color: #FBFBFB;
+    border-radius: 5px;
+    box-shadow: 0px 20px 30px rgba(2, 13, 39, 0.03);
+    z-index: 20;
+}
+#welcome .welcome-search label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #25282B;
+    letter-spacing: 0.005em;
+}
+#welcome .welcome-search select {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #52575C;
+}
+#welcome .welcome-search button {
+    background-color: #FF5B22;
+    padding: 16px 24px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+#footer {
+    height: 200vh;
+    background-color: dodgerblue;
+}
