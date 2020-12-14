@@ -4,9 +4,27 @@ html {
 }
 body {
     width: 100%;
+    max-width: 1500px;
+    position: relative;
     background-color: #fff;
     font-weight: 400;
     overflow-x: hidden;
+}
+@media (min-width: 1500px) {
+    body {
+        margin: 0px auto;
+    }
+}
+
+.header-cover {
+    height: 792px;
+    width: 44vw;
+    position: absolute;
+    right: 0px;
+}
+.header-cover img {
+    height: 100%;
+    width: 100%;
 }
 
 #header {
@@ -16,14 +34,6 @@ body {
     overflow-x: hidden;
 }
 
-#header .header-cover {
-    height: 792px;
-    width: 50vw;
-    position: absolute;
-    right: -215px;
-    background-color: #F0F3FF;
-    transform: skewX(20deg);
-}
 #nav {
     padding: 32px 72px;
 }
@@ -68,7 +78,7 @@ body {
 }
 #welcome {
     padding-left: 72px;
-    padding-right: 32px;
+    padding-right: 48px;
 }
 #welcome .welcome-text h2 {
     font-family: 'Playfair Display', serif;
@@ -199,7 +209,7 @@ body {
 
 #main-1 {
     width: 100%;
-    padding: 72px 32px 174px;
+    padding: 72px 48px 174px;
     overflow-x: hidden;
 }
 #main-1 h3 {
